@@ -15,8 +15,8 @@ import java.io.File;
 import idv.luchafang.videotrimmer.VideoTrimmerView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, VideoTrimmerView.OnSelectedRangeChangedListener {
-
-    Button selectVideoBtn;
+       
+    Button selectVideoBtn,b;
     VideoTrimmerView videoTrimmerView;
 
     @Override
