@@ -16,7 +16,7 @@ import idv.luchafang.videotrimmer.VideoTrimmerView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, VideoTrimmerView.OnSelectedRangeChangedListener {
        
-    Button selectVideoBtn,b;
+    Button selectVideoBtn;
     VideoTrimmerView videoTrimmerView;
 
     @Override
